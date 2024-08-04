@@ -1,38 +1,24 @@
-# LocalChat Stack Overflow Vulnerability
+# LocalChat Less than version 1.2 Stack Overflow Vulnerability
 
-## Vulnerability Description
+## SUMMARY
 
 LocalChat is a tool for TCP and UDP communication. There is a stack overflow vulnerability in the client login feature, which can be triggered when the client receives a maliciously crafted response from a fake server.
 
 This vulnerability can lead to arbitrary code execution, arbitrary command execution, acquisition of client machine privileges, and leakage of sensitive information.
 
-## Product Information
-
-### Product Name
+## Product
 
 - LocalChat
-
-### Product Version
-
-- V1.0
-
-### Vendor Link
-
-https://github.com/CStack90/LocalChat
+- Less than v1.2
+- https://github.com/CStack90/LocalChat/releases/tag/v1.2
 
 
-## Attack Method
+## DETAIL
 
-### Vulnerable Files
 
 - LocalChat/client/main.c
 - LocalChat/client/commands.c
 
-### Vulnerability Type
-
-Stack overflow
-
-### Reverse Analysis
 
 LocalChat/client/commands.c:login
 
