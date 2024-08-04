@@ -2,7 +2,7 @@
 
 ## SUMMARY
 
-Stack Overflow in CPP-ParseSQL
+Stack Overflow in CPP-ParseSQL v2.0
 
 The stack overflow vulnerability is located in line 177 of the tokeniser.cpp file of the CPP-ParseSQL v2.0 program. Attackers can achieve attack effects such as arbitrary address execution, arbitrary code execution, and machine terminal acquisition by leaving carefully designed files for parsing.
 
@@ -10,7 +10,7 @@ The stack overflow vulnerability is located in line 177 of the tokeniser.cpp fil
 
 ## DETAIL
 
-- source link: https://github.com/Icejin-a11y/CPP-ParseSQL/tree/main
+- source link: https://github.com/Icejin-a11y/CPP-ParseSQL/releases/tag/tag
 - version: v2.0
 
 
